@@ -4,10 +4,41 @@
     left: 0; 
       
     /* Preserve aspet ratio */
-    min-width: 100%;
+    min-width: fill;
     min-height: 100%;
   }
 
 .menubar {
-    background-color: rgba(255, 255, 255, .95);
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
   }
+
+.card-link.signin-link {
+  font-size: 12px;
+  color: darkgrey;
+}
+.card-link.signin-link:hover {
+  color: grey;
+}
+p.card-text {
+  padding-top: 16px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.text-link {
+  color: lightblue;
+}
+
+img.userProfile {
+  width: 60px;
+  height: 60px;
+}
+
+img.pfp {
+  width: 40px;
+  height: 40px;
+}
+
+.userList {
+  font-size: 12px;
+}
