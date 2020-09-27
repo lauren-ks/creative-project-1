@@ -1,21 +1,18 @@
-#bg {
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-      
-    /* Preserve aspet ratio */
-    min-width: fill;
-    min-height: 100%;
-  }
+.main { 
+  background: url("images/home-bg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-  #bg2 {
-    position: fixed; 
-    top: 0;
-      
-    /* Preserve aspet ratio */
-    min-width: 100%;
-    min-height: fit;
-  }
+.signup { 
+  background: url("images/home-bg3.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .menubar-index {
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
