@@ -8,8 +8,12 @@
     min-height: 100%;
   }
 
-.menubar {
+.menubar-index {
     background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  }
+
+.menubar {
+    background-image: linear-gradient(rgba(176, 176, 176, 1), rgba(255, 255, 255, 0));
   }
 
 .card-link.signin-link {
@@ -30,6 +34,7 @@ p.card-text {
 }
 
 img.userProfile {
+  margin: auto;
   width: 60px;
   height: 60px;
 }
